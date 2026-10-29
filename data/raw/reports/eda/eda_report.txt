@@ -1,0 +1,47 @@
+IRRIGATION DATASET - EDA SUMMARY
+========================================
+Training rows: 58700
+Validation rows: 8490
+Testing rows: 16520
+Total rows: 83710
+Number of columns: 39
+Training missing values: 0
+Training duplicate rows: 0
+
+IR_mm target summary:
+count    58700.000
+mean         6.971
+std          3.762
+min          0.000
+25%          3.317
+50%          7.297
+75%          9.950
+max         18.194
+
+Average IR_mm by crop:
+Wheat     2.506
+Potato    5.559
+Tomato    6.967
+Cotton    7.619
+Maize     7.710
+Rice      9.993
+
+Highest positive correlations:
+ET0_mm_roll7    0.808
+ET0_mm_roll3    0.800
+ET0_mm_lag1     0.798
+Tmean_lag1      0.787
+Tmean_roll3     0.784
+Tmean_roll7     0.782
+Rs_roll7        0.734
+Kc              0.724
+
+Most negative correlations:
+doy_cos         -0.755
+month_cos       -0.662
+RH_roll7        -0.586
+RH_roll3        -0.574
+RH_lag1         -0.563
+month_sin       -0.469
+crop_wheat      -0.458
+stage_initial   -0.398
