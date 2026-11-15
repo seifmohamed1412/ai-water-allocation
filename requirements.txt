@@ -1,0 +1,20 @@
+# Data processing
+numpy
+pandas
+
+# Machine learning - water prediction
+scikit-learn
+joblib
+
+# Computer vision - YOLO
+ultralytics
+opencv-python
+Pillow
+
+# Visualization
+matplotlib
+seaborn
+
+# Jupyter notebooks
+jupyter
+ipykernel

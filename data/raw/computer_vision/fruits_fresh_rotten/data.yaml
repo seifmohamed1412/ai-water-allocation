@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 6
+names: ['freshapples', 'freshbanana', 'freshoranges', 'rottenapples', 'rottenbanana', 'rottenoranges']
+
+roboflow:
+  workspace: master-pfe-2025
+  project: fruits-fresh-and-rotten
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/master-pfe-2025/fruits-fresh-and-rotten/dataset/3

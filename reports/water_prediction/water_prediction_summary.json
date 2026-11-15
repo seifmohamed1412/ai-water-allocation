@@ -1,0 +1,20 @@
+{
+  "selected_model": "extra_trees",
+  "target": "IR_mm",
+  "target_unit": "mm/day",
+  "feature_count": 38,
+  "validation_metrics": {
+    "model": "extra_trees",
+    "split": "validation",
+    "MAE_mm_day": 0.5083038316327166,
+    "RMSE_mm_day": 0.7296848633156244,
+    "R2": 0.9641626160756557
+  },
+  "test_metrics": {
+    "MAE_mm_day": 0.5312409352431737,
+    "RMSE_mm_day": 0.7617853870722213,
+    "R2": 0.9601392739567518
+  },
+  "model_path": "C:\\Users\\pc\\Desktop\\ai-water-allocation\\ai-water-allocation\\data\\models\\water_requirement_model.joblib",
+  "metrics_path": "C:\\Users\\pc\\Desktop\\ai-water-allocation\\ai-water-allocation\\data\\reports\\results\\water_prediction_metrics.csv"
+}
